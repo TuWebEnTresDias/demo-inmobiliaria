@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="propRecoleta">
+  <title id="propRecoleta">Ilustración de un edificio clásico con balcones franceses en Recoleta</title>
+  <defs>
+    <linearGradient id="p4sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFE3E0"/>
+      <stop offset="1" stop-color="#F9F4EA"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#p4sky)"/>
+  <!-- classic building -->
+  <rect x="250" y="90" width="300" height="460" fill="#F1E8D8"/>
+  <rect x="250" y="90" width="300" height="460" fill="none" stroke="#D8C9AE" stroke-width="4"/>
+  <!-- cornices -->
+  <rect x="238" y="82" width="324" height="22" rx="6" fill="#0E5A43"/>
+  <rect x="240" y="216" width="320" height="12" fill="#D8C9AE"/>
+  <rect x="240" y="360" width="320" height="12" fill="#D8C9AE"/>
+  <rect x="240" y="496" width="320" height="12" fill="#D8C9AE"/>
+  <!-- top windows with french balconies -->
+  <g fill="#8CC9AC" stroke="#0E5A43" stroke-width="3">
+    <rect x="278" y="124" width="52" height="70" rx="3"/>
+    <rect x="374" y="124" width="52" height="70" rx="3"/>
+    <rect x="470" y="124" width="52" height="70" rx="3"/>
+    <rect x="278" y="252" width="52" height="70" rx="3"/>
+    <rect x="374" y="252" width="52" height="70" rx="3"/>
+    <rect x="470" y="252" width="52" height="70" rx="3"/>
+    <rect x="278" y="396" width="52" height="70" rx="3"/>
+    <rect x="374" y="396" width="52" height="70" rx="3"/>
+    <rect x="470" y="396" width="52" height="70" rx="3"/>
+  </g>
+  <!-- french balconies rails -->
+  <g stroke="#C9A227" stroke-width="4" stroke-linecap="round">
+    <line x1="274" y1="200" x2="334" y2="200"/>
+    <line x1="278" y1="200" x2="278" y2="176"/>
+    <line x1="296" y1="200" x2="296" y2="176"/>
+    <line x1="314" y1="200" x2="314" y2="176"/>
+    <line x1="330" y1="200" x2="330" y2="176"/>
+    <line x1="370" y1="200" x2="430" y2="200"/>
+    <line x1="374" y1="200" x2="374" y2="176"/>
+    <line x1="392" y1="200" x2="392" y2="176"/>
+    <line x1="410" y1="200" x2="410" y2="176"/>
+    <line x1="426" y1="200" x2="426" y2="176"/>
+    <line x1="466" y1="200" x2="526" y2="200"/>
+    <line x1="470" y1="200" x2="470" y2="176"/>
+    <line x1="488" y1="200" x2="488" y2="176"/>
+    <line x1="506" y1="200" x2="506" y2="176"/>
+    <line x1="522" y1="200" x2="522" y2="176"/>
+    <line x1="274" y1="328" x2="334" y2="328"/>
+    <line x1="278" y1="328" x2="278" y2="304"/>
+    <line x1="296" y1="328" x2="296" y2="304"/>
+    <line x1="314" y1="328" x2="314" y2="304"/>
+    <line x1="330" y1="328" x2="330" y2="304"/>
+    <line x1="370" y1="328" x2="430" y2="328"/>
+    <line x1="374" y1="328" x2="374" y2="304"/>
+    <line x1="392" y1="328" x2="392" y2="304"/>
+    <line x1="410" y1="328" x2="410" y2="304"/>
+    <line x1="426" y1="328" x2="426" y2="304"/>
+    <line x1="466" y1="328" x2="526" y2="328"/>
+    <line x1="470" y1="328" x2="470" y2="304"/>
+    <line x1="488" y1="328" x2="488" y2="304"/>
+    <line x1="506" y1="328" x2="506" y2="304"/>
+    <line x1="522" y1="328" x2="522" y2="304"/>
+    <line x1="274" y1="472" x2="334" y2="472"/>
+    <line x1="278" y1="472" x2="278" y2="448"/>
+    <line x1="296" y1="472" x2="296" y2="448"/>
+    <line x1="314" y1="472" x2="314" y2="448"/>
+    <line x1="330" y1="472" x2="330" y2="448"/>
+    <line x1="370" y1="472" x2="430" y2="472"/>
+    <line x1="374" y1="472" x2="374" y2="448"/>
+    <line x1="392" y1="472" x2="392" y2="448"/>
+    <line x1="410" y1="472" x2="410" y2="448"/>
+    <line x1="426" y1="472" x2="426" y2="448"/>
+    <line x1="466" y1="472" x2="526" y2="472"/>
+    <line x1="470" y1="472" x2="470" y2="448"/>
+    <line x1="488" y1="472" x2="488" y2="448"/>
+    <line x1="506" y1="472" x2="506" y2="448"/>
+    <line x1="522" y1="472" x2="522" y2="448"/>
+  </g>
+  <!-- entrance -->
+  <rect x="366" y="516" width="68" height="34" rx="4" fill="#14532D"/>
+  <!-- sidewalk -->
+  <rect y="550" width="800" height="50" fill="#D9E4D3"/>
+  <g fill="#2E7D5B">
+    <circle cx="130" cy="512" r="32"/>
+    <rect x="124" y="540" width="12" height="40" rx="4" fill="#8B5E34"/>
+  </g>
+  <g fill="#3FA37A">
+    <circle cx="680" cy="516" r="30"/>
+    <rect x="675" y="542" width="10" height="38" rx="4" fill="#8B5E34"/>
+  </g>
+  <!-- street lamp -->
+  <g stroke="#8A6D14" stroke-width="6" stroke-linecap="round">
+    <line x1="620" y1="480" x2="620" y2="550"/>
+  </g>
+  <circle cx="620" cy="472" r="12" fill="#E9C46A"/>
+</svg>

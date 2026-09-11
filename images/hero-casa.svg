@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Ilustración de una casa moderna con jardín en Buenos Aires</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DCEDE2"/>
+      <stop offset="1" stop-color="#F7F3EB"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9AD6B9"/>
+      <stop offset="1" stop-color="#5FAF8F"/>
+    </linearGradient>
+    <linearGradient id="glass2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BFE3D0"/>
+      <stop offset="1" stop-color="#8CC9AC"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" fill="url(#sky)"/>
+  <circle cx="775" cy="128" r="62" fill="#E9C46A"/>
+  <circle cx="775" cy="128" r="78" fill="#E9C46A" opacity="0.25"/>
+  <g fill="#FFFFFF" opacity="0.9">
+    <ellipse cx="185" cy="118" rx="72" ry="17"/>
+    <ellipse cx="245" cy="102" rx="46" ry="13"/>
+    <ellipse cx="590" cy="86" rx="58" ry="14"/>
+    <ellipse cx="640" cy="100" rx="38" ry="11"/>
+  </g>
+  <g stroke="#274A38" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6">
+    <path d="M120 190 q12 -14 24 0 q12 -14 24 0"/>
+    <path d="M320 150 q10 -12 20 0 q10 -12 20 0"/>
+  </g>
+  <!-- ground -->
+  <rect y="540" width="960" height="180" fill="#CBE2CE"/>
+  <rect y="540" width="960" height="12" fill="#B9D7BF"/>
+  <!-- path -->
+  <polygon points="428,720 532,720 502,560 458,560" fill="#EAE0CB"/>
+  <g stroke="#D8CDBA" stroke-width="3">
+    <line x1="446" y1="600" x2="514" y2="600"/>
+    <line x1="438" y1="648" x2="522" y2="648"/>
+  </g>
+  <!-- garage -->
+  <rect x="560" y="420" width="150" height="140" fill="#EFE9DC"/>
+  <rect x="560" y="420" width="150" height="140" fill="none" stroke="#D8CDBA" stroke-width="3"/>
+  <rect x="578" y="452" width="114" height="108" rx="6" fill="#CBD9CE"/>
+  <g stroke="#AFC6B4" stroke-width="4">
+    <line x1="578" y1="478" x2="692" y2="478"/>
+    <line x1="578" y1="504" x2="692" y2="504"/>
+    <line x1="578" y1="530" x2="692" y2="530"/>
+  </g>
+  <!-- main volume -->
+  <rect x="300" y="290" width="310" height="270" fill="#F6F1E7"/>
+  <rect x="300" y="290" width="310" height="270" fill="none" stroke="#D8CDBA" stroke-width="3"/>
+  <!-- roof slab -->
+  <rect x="278" y="258" width="354" height="40" rx="10" fill="#14532D"/>
+  <!-- upper windows -->
+  <g fill="url(#glass)">
+    <rect x="332" y="326" width="74" height="88" rx="6"/>
+    <rect x="432" y="326" width="74" height="88" rx="6"/>
+    <rect x="532" y="326" width="52" height="88" rx="6"/>
+  </g>
+  <g stroke="#0E5A43" stroke-width="4">
+    <line x1="369" y1="326" x2="369" y2="414"/>
+    <line x1="332" y1="370" x2="406" y2="370"/>
+    <line x1="469" y1="326" x2="469" y2="414"/>
+    <line x1="432" y1="370" x2="506" y2="370"/>
+    <line x1="558" y1="326" x2="558" y2="414"/>
+  </g>
+  <!-- door + sidelight -->
+  <rect x="392" y="470" width="76" height="90" rx="6" fill="#C9A227"/>
+  <circle cx="452" cy="516" r="5" fill="#8A6D14"/>
+  <rect x="476" y="470" width="46" height="90" rx="6" fill="url(#glass2)"/>
+  <rect x="532" y="470" width="52" height="90" rx="6" fill="url(#glass2)"/>
+  <!-- pergola shadow -->
+  <rect x="300" y="440" width="310" height="6" fill="#E3DAC8"/>
+  <!-- tree left -->
+  <rect x="196" y="470" width="16" height="94" rx="6" fill="#8B5E34"/>
+  <circle cx="204" cy="420" r="58" fill="#2E7D5B"/>
+  <circle cx="176" cy="452" r="38" fill="#3FA37A"/>
+  <circle cx="232" cy="450" r="34" fill="#379070"/>
+  <!-- bush right -->
+  <circle cx="770" cy="540" r="34" fill="#3FA37A"/>
+  <circle cx="804" cy="548" r="26" fill="#2E7D5B"/>
+  <circle cx="742" cy="550" r="22" fill="#379070"/>
+  <!-- fence right -->
+  <g stroke="#A8B8AC" stroke-width="5" stroke-linecap="round">
+    <line x1="716" y1="566" x2="716" y2="620"/>
+    <line x1="748" y1="566" x2="748" y2="620"/>
+    <line x1="780" y1="566" x2="780" y2="620"/>
+    <line x1="812" y1="566" x2="812" y2="620"/>
+    <line x1="844" y1="566" x2="844" y2="620"/>
+    <line x1="704" y1="582" x2="856" y2="582"/>
+    <line x1="704" y1="604" x2="856" y2="604"/>
+  </g>
+  <!-- flowers -->
+  <g>
+    <circle cx="330" cy="600" r="8" fill="#D97B6C"/>
+    <circle cx="354" cy="612" r="6" fill="#E9C46A"/>
+    <circle cx="620" cy="604" r="7" fill="#D97B6C"/>
+    <circle cx="644" cy="614" r="6" fill="#E9C46A"/>
+  </g>
+  <!-- key detail floating -->
+  <g transform="translate(96 300) rotate(-12)">
+    <circle cx="0" cy="0" r="26" fill="none" stroke="#C9A227" stroke-width="10"/>
+    <line x1="20" y1="16" x2="66" y2="62" stroke="#C9A227" stroke-width="10" stroke-linecap="round"/>
+    <line x1="56" y1="52" x2="70" y2="38" stroke="#C9A227" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="propPalermo">
+  <title id="propPalermo">Ilustración de un edificio de departamentos con balcones en Palermo</title>
+  <defs>
+    <linearGradient id="p1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3E8D8"/>
+      <stop offset="1" stop-color="#F9F4EA"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#p1sky)"/>
+  <circle cx="660" cy="110" r="48" fill="#E9C46A"/>
+  <!-- building -->
+  <rect x="220" y="110" width="360" height="440" fill="#EFE7D8"/>
+  <rect x="220" y="110" width="360" height="440" fill="none" stroke="#D8CDBA" stroke-width="4"/>
+  <rect x="220" y="96" width="360" height="26" rx="6" fill="#0E5A43"/>
+  <!-- balconies -->
+  <g>
+    <g fill="#8CC9AC">
+      <rect x="250" y="160" width="90" height="64" rx="4"/>
+      <rect x="460" y="160" width="90" height="64" rx="4"/>
+      <rect x="250" y="300" width="90" height="64" rx="4"/>
+      <rect x="460" y="300" width="90" height="64" rx="4"/>
+    </g>
+    <g fill="#0E5A43">
+      <rect x="352" y="150" width="96" height="180" rx="6"/>
+      <rect x="352" y="290" width="96" height="180" rx="6"/>
+    </g>
+    <g fill="#C9A227">
+      <rect x="366" y="164" width="68" height="34" rx="4" opacity="0.35"/>
+      <rect x="366" y="304" width="68" height="34" rx="4" opacity="0.35"/>
+    </g>
+    <g stroke="#B7A26A" stroke-width="4" stroke-linecap="round">
+      <line x1="244" y1="238" x2="346" y2="238"/>
+      <line x1="454" y1="238" x2="556" y2="238"/>
+      <line x1="244" y1="378" x2="346" y2="378"/>
+      <line x1="454" y1="378" x2="556" y2="378"/>
+      <line x1="250" y1="238" x2="250" y2="212"/>
+      <line x1="278" y1="238" x2="278" y2="212"/>
+      <line x1="306" y1="238" x2="306" y2="212"/>
+      <line x1="334" y1="238" x2="334" y2="212"/>
+      <line x1="460" y1="238" x2="460" y2="212"/>
+      <line x1="488" y1="238" x2="488" y2="212"/>
+      <line x1="516" y1="238" x2="516" y2="212"/>
+      <line x1="544" y1="238" x2="544" y2="212"/>
+      <line x1="250" y1="378" x2="250" y2="352"/>
+      <line x1="278" y1="378" x2="278" y2="352"/>
+      <line x1="306" y1="378" x2="306" y2="352"/>
+      <line x1="334" y1="378" x2="334" y2="352"/>
+      <line x1="460" y1="378" x2="460" y2="352"/>
+      <line x1="488" y1="378" x2="488" y2="352"/>
+      <line x1="516" y1="378" x2="516" y2="352"/>
+      <line x1="544" y1="378" x2="544" y2="352"/>
+    </g>
+  </g>
+  <!-- plants on balconies -->
+  <g fill="#2E7D5B">
+    <circle cx="268" cy="228" r="12"/>
+    <circle cx="472" cy="368" r="12"/>
+  </g>
+  <!-- ground floor entrance -->
+  <rect x="336" y="470" width="128" height="80" rx="6" fill="#14532D"/>
+  <rect x="360" y="484" width="80" height="56" rx="4" fill="#8CC9AC"/>
+  <!-- sidewalk -->
+  <rect y="550" width="800" height="50" fill="#D9E4D3"/>
+  <g fill="#2E7D5B">
+    <circle cx="120" cy="512" r="34"/>
+    <rect x="114" y="540" width="12" height="40" rx="4" fill="#8B5E34"/>
+  </g>
+  <g fill="#3FA37A">
+    <circle cx="700" cy="516" r="30"/>
+    <rect x="695" y="542" width="10" height="38" rx="4" fill="#8B5E34"/>
+  </g>
+</svg>

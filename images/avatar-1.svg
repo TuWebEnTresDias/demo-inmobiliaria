@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="av1">
+  <title id="av1">Avatar de Lucía</title>
+  <circle cx="48" cy="48" r="48" fill="#0E5A43"/>
+  <circle cx="48" cy="40" r="17" fill="#E8B08A"/>
+  <path d="M28 38 q0 -20 20 -20 q20 0 20 20 q0 6 -3 9 q1 -12 -8 -16 q-4 8 -18 8 q-6 0 -8 4 q-2 -2 -3 -5z" fill="#4A3226"/>
+  <path d="M18 96 q4 -30 30 -30 q26 0 30 30z" fill="#C9A227"/>
+  <path d="M40 66 q8 6 16 0 l-8 14z" fill="#F6F1E7"/>
+</svg>

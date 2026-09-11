@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="propAlmagro">
+  <title id="propAlmagro">Ilustración de un loft luminoso con grandes ventanales en Almagro</title>
+  <defs>
+    <linearGradient id="p5sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3E8D8"/>
+      <stop offset="1" stop-color="#F9F4EA"/>
+    </linearGradient>
+    <linearGradient id="p5glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BFE3D0"/>
+      <stop offset="1" stop-color="#7FC8A9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#p5sky)"/>
+  <circle cx="150" cy="120" r="42" fill="#E9C46A"/>
+  <!-- loft building -->
+  <rect x="240" y="200" width="320" height="350" fill="#E9E2D2"/>
+  <rect x="240" y="200" width="320" height="350" fill="none" stroke="#D2C7B0" stroke-width="4"/>
+  <!-- roofline -->
+  <rect x="226" y="184" width="348" height="24" rx="6" fill="#14532D"/>
+  <!-- big industrial windows -->
+  <g fill="url(#p5glass)" stroke="#0E5A43" stroke-width="5">
+    <rect x="266" y="234" width="118" height="120" rx="4"/>
+    <rect x="416" y="234" width="118" height="120" rx="4"/>
+    <rect x="266" y="396" width="118" height="120" rx="4"/>
+    <rect x="416" y="396" width="118" height="120" rx="4"/>
+  </g>
+  <!-- window grid -->
+  <g stroke="#0E5A43" stroke-width="3">
+    <line x1="325" y1="234" x2="325" y2="354"/>
+    <line x1="266" y1="294" x2="384" y2="294"/>
+    <line x1="475" y1="234" x2="475" y2="354"/>
+    <line x1="416" y1="294" x2="534" y2="294"/>
+    <line x1="325" y1="396" x2="325" y2="516"/>
+    <line x1="266" y1="456" x2="384" y2="456"/>
+    <line x1="475" y1="396" x2="475" y2="516"/>
+    <line x1="416" y1="456" x2="534" y2="456"/>
+  </g>
+  <!-- warm interior light accents -->
+  <rect x="266" y="234" width="118" height="120" rx="4" fill="#E9C46A" opacity="0.28"/>
+  <rect x="416" y="396" width="118" height="120" rx="4" fill="#E9C46A" opacity="0.22"/>
+  <!-- awning over entrance -->
+  <polygon points="380,516 480,516 470,546 390,546" fill="#C9A227"/>
+  <!-- sidewalk -->
+  <rect y="550" width="800" height="50" fill="#D9E4D3"/>
+  <!-- street tree -->
+  <g fill="#2E7D5B">
+    <circle cx="120" cy="508" r="34"/>
+    <rect x="114" y="536" width="12" height="44" rx="4" fill="#8B5E34"/>
+  </g>
+  <!-- bike -->
+  <g stroke="#14532D" stroke-width="4" fill="none" stroke-linecap="round">
+    <circle cx="640" cy="530" r="18"/>
+    <circle cx="690" cy="530" r="18"/>
+    <path d="M640 530 L662 498 L690 530 M662 498 L655 494"/>
+    <path d="M640 530 L668 522 L690 530"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="av4">
+  <title id="av4">Avatar de Marcela</title>
+  <circle cx="48" cy="48" r="48" fill="#3FA37A"/>
+  <circle cx="48" cy="40" r="17" fill="#E8B08A"/>
+  <path d="M27 40 q-1 -22 21 -22 q22 0 21 22 l-4 -1 q1 -14 -8 -17 q-8 9 -22 7 q-5 3 -8 11z" fill="#8A6D51"/>
+  <circle cx="42" cy="41" r="2.5" fill="#2B1D14"/>
+  <circle cx="55" cy="41" r="2.5" fill="#2B1D14"/>
+  <path d="M42 50 q6 5 12 0" stroke="#B07B54" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M18 96 q4 -30 30 -30 q26 0 30 30z" fill="#14532D"/>
+  <path d="M40 66 q8 6 16 0 l-8 14z" fill="#F6F1E7"/>
+</svg>
