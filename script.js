@@ -1,5 +1,5 @@
 /* ========================================
-   CLAVE URBANA — Inmobiliaria Landing
+   INMOBILIARIA — Inmobiliaria Landing
    Interacciones limpias y funcionales
    ======================================== */
 
