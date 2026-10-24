@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const Personalization = {
         params: (() => {
             // First try current page URL
-            const local = new URLSearchParams(window.location.search);
+            const local = new URLSearchParams(window.__DEMO_PARAMS__ ?? window.location.search);
             if (local.toString()) return local;
 
             // Fallback: check parent window (iframe scenario)
@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
         })(),
 
         init() {
-            const rawName = this.params.get('n');
-            const rawCompany = this.params.get('e');
+            const rawName = this.params.get('n')?.trim().slice(0, 80);
+            const rawCompany = this.params.get('e')?.trim().slice(0, 80);
             const phone = this.params.get('t');
 
             const company = rawCompany ? `${rawCompany} | Propiedades` : null;
@@ -70,7 +70,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         applyPhone(phone) {
             // Clean phone: remove spaces, dashes, parentheses
-            const cleanPhone = phone.replace(/[\s\-()]/g, '');
+            const normalized = window.SiteSecurity.normalizePhone(phone);
+            if (!normalized) return;
+            const cleanPhone = normalized.national;
 
             // tel: links → use raw phone (ej: tel:1155551234)
             document.querySelectorAll('a[href^="tel:"]').forEach(el => {
@@ -101,7 +103,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         updateWhatsApp(name) {
             const phone = this.params.get('t');
-            const phoneClean = phone ? phone.replace(/[\s\-()]/g, '') : '1158055802';
+            const normalized = window.SiteSecurity.normalizePhone(phone ?? '1158055802');
+            const phoneClean = normalized?.national || '';
             const whatsappPhone = `549${phoneClean}`;
 
             document.querySelectorAll('[data-whatsapp]').forEach(el => {
@@ -348,7 +351,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const encodedMessage = encodeURIComponent(whatsappMessage);
             const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
-            window.open(whatsappUrl, '_blank', 'noopener');
+            window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
 
             // Show feedback
             const submitBtn = contactForm.querySelector('button[type="submit"]');
