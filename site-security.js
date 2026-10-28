@@ -30,7 +30,30 @@
     el.textContent = message;
   };
   const lock = () => document.querySelectorAll('[data-security-submit]').forEach(button => { button.disabled = true; });
+  // Apply one contact contract after each demo has initialized its own UI.
+  const applyContact = () => {
+    if (!personalized) return;
+    const phone = normalizePhone(params.has('t') ? params.get('t') : document.documentElement.dataset.defaultPhone);
+    document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+      const numberText = /[0-9]/.test(link.textContent);
+      if (numberText) link.dataset.phoneDisplay = '';
+      if (phone && !invalidPhone) link.href = `tel:${phone.telephone}`;
+    });
+    if (!phone || invalidPhone) {
+      document.querySelectorAll('[data-phone-display]').forEach(el => { el.textContent = 'Número inválido · contacto desactivado'; });
+      return;
+    }
+    document.querySelectorAll('[data-phone-display]').forEach(el => { el.textContent = `+54 9 ${phone.display}`; });
+    document.querySelectorAll('a[href*="wa.me/"]').forEach(link => {
+      const url = new URL(link.href);
+      if (url.hostname !== 'wa.me') return;
+      url.pathname = '/' + phone.whatsapp;
+      link.href = url.href;
+      link.rel = 'noopener noreferrer';
+    });
+  };
   const apply = () => {
+    applyContact();
     if (invalidPhone) {
       document.querySelectorAll('a[href^="tel:"],a[href*="wa.me/"],[data-whatsapp],[data-mobile-whatsapp],[data-intent]').forEach(link => {
         link.removeAttribute('href'); link.setAttribute('aria-disabled', 'true');
